@@ -9,7 +9,6 @@
 ![Accuracy](https://img.shields.io/badge/ilk--1_isabet-%2593%2C3-brightgreen)
 ![Tests](https://img.shields.io/badge/MSTest-112_test-success)
 ![Kaynak](https://img.shields.io/badge/kaynak_kodu-%C3%B6zel_(ticari)-lightgrey)
-[![Örnek kod testleri](https://github.com/furkan-karapinar/Trendyol_Siparis_Sorulari_Botu-showcase/actions/workflows/ornek-kod.yml/badge.svg)](https://github.com/furkan-karapinar/Trendyol_Siparis_Sorulari_Botu-showcase/actions/workflows/ornek-kod.yml)
 
 > **30 saniyede:**
 > - **Problem:** Müşteri hizmetleri her gün onlarca "Kargom nerede?" sorusuna, yıllardır kullanılan ~10 kalıptan uygun olanı seçip elle yazıyordu.
@@ -103,6 +102,6 @@ Tek geliştirici: problem analizi, panel API'sinin incelenmesi, tahmin modelinin
 
 Bu depo bir **vaka çalışmasıdır**; kod ticari bir işletmeye ait olduğu için paylaşılmamaktadır. Görüşmede canlı demo ve kod incelemesi yapabilirim.
 
-**Paylaşılabilen kısım:** [`ornek-kod/`](ornek-kod) klasöründe asıl projeden alınmış, gizli bilgi içermeyen küçük bir parça var: müşteri sorusunu benzer geçmiş sorularla eşleştiren metin normalizasyonu ve karakter n-gram benzerliği. Tek başına derlenir, birim testleri vardır ve her push'ta GitHub Actions ile çalıştırılır.
+**Paylaşılabilen kısım:** [`ornek-kod/`](ornek-kod) klasöründe asıl projeden alınmış, gizli bilgi içermeyen küçük bir parça var: müşteri sorusunu benzer geçmiş sorularla eşleştiren metin normalizasyonu ve karakter n-gram benzerliği. Tek başına derlenir ve birim testleriyle birlikte gelir (`dotnet test`).
 
 📫 **İletişim:** [GitHub profilim](https://github.com/furkan-karapinar)
